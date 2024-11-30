@@ -1,6 +1,6 @@
 # RL-Trade-Sim
 
-**RL-Trade-Sim** is a reinforcement learning-driven trading simulator developed in Python, leveraging OpenAI Gym. The primary objective of this project is to optimize trade execution by utilizing advanced reinforcement learning (RL) algorithms, including Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO). The simulator is designed to train agents capable of minimizing slippage, reducing transaction costs, and executing trades efficiently under realistic market conditions.
+**RL-Trade-Sim** is a reinforcement learning-driven trading simulator developed in Python, leveraging Gymnasium. The primary objective of this project is to optimize trade execution by utilizing advanced reinforcement learning (RL) algorithms, including Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO). The simulator is designed to train agents capable of minimizing slippage, reducing transaction costs, and executing trades efficiently under realistic market conditions.
 
 ---
 
@@ -21,9 +21,9 @@
 ## Project Structure
 
 ```
-RLTradeSim/
+RL-Trade-Sim/
 │
-├── env/                  # Custom OpenAI Gym environment
+├── env/                  # Custom Gymnasium environment
 ├── data/                 # Historical market data
 ├── models/               # Trained RL models
 ├── notebooks/            # Jupyter notebooks for experimentation
@@ -39,7 +39,7 @@ RLTradeSim/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/watrgoat/RL-Trade-Sim.git
+   git clone https://github.com/your_username/RL-Trade-Sim.git
    cd RL-Trade-Sim
    ```
 
@@ -76,7 +76,7 @@ To develop an RL agent capable of optimizing **trade execution**, focusing on:
 ## What the Project Will Deliver
 
 ### Core Functionality
-1. A simulated trading environment with realistic constraints.
+1. A simulated trading environment with realistic constraints using **Gymnasium**.
 2. Trained RL agents capable of executing trades efficiently.
 3. Metrics and analysis tools to evaluate performance.
 
@@ -107,7 +107,7 @@ Detailed documentation and usage examples will be added as development progresse
 
 ## Roadmap
 
-- [x] Design and implement the custom Gym environment.
+- [x] Design and implement the custom Gymnasium environment.
 - [ ] Develop baseline strategies (TWAP, VWAP).
 - [ ] Implement and train the DQN agent.
 - [ ] Add support for advanced RL algorithms like PPO and DDPG.
@@ -125,3 +125,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contributing
 
 We welcome contributions, suggestions, and feedback. If you're interested in contributing, please submit an issue or pull request to the repository.
+
+---
+
+Does this revised version fully reflect the new focus on Gymnasium? Let me know if you'd like further updates!
